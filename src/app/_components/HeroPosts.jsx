@@ -1,24 +1,43 @@
 // app/page.js
 import Link from "next/link";
 import { getAllPosts } from "@/lib/api";
+import Image from "next/image";
 
 export default function HeroPosts() {
   const posts = getAllPosts();
 
   return (
     <main>
-      <h1>My Blog</h1>
-      <ul>
+      <h1>Latest Article</h1>
+      <div className="article-prew">
         {posts.map((post) => (
-          <li key={post.slug}>
+          <div key={post.slug}>
+            <Link href={`/posts/${post.slug}`}>
+              <Image
+                src={post.ogImage.url}
+                alt={`Cover image for ${post.title}`}
+                width={500}
+                height={300}
+              />
+            </Link>
             <h2>
               <Link href={`/posts/${post.slug}`}>{post.title}</Link>
             </h2>
             <p>{post.excerpt}</p>
-            <p>By {post.author.name} on {post.date}</p>
-          </li>
+            <div>
+              <Image
+                src={post.author.picture}
+                alt={` ${post.author.name} image`}
+                width={50}
+                height={50}
+              />
+              <p>
+                By {post.author.name} on {post.date}
+              </p>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </main>
   );
 }
