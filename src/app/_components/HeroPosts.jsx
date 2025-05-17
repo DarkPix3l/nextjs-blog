@@ -12,16 +12,16 @@ export default function HeroPosts() {
       <div className="article-prew">
         {posts.map((post) => (
           <div key={post.slug}>
-            <Link href={`/posts/${post.slug}`}>
+            <Link href={`/${post.slug}`}>
               <Image
-                src={post.ogImage.url}
+                src={post.coverImage}
                 alt={`Cover image for ${post.title}`}
                 width={500}
                 height={300}
               />
             </Link>
             <h2>
-              <Link href={`/posts/${post.slug}`}>{post.title}</Link>
+              <Link href={`/${post.slug}`}>{post.title}</Link>
             </h2>
             <p>{post.excerpt}</p>
             <div>

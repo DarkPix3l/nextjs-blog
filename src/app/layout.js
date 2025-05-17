@@ -10,6 +10,9 @@ import "./globals.css";
 export const metadata = {
   title: "NextJS Blog",
   description: "simple blog application using Next.js that demonstrates routing, image optimization, font optimization, and the use of both client and server components.",
+    icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
