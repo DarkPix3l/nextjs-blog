@@ -8,7 +8,7 @@ export default function HeroPosts() {
 
   return (
     <main>
-      {/* <div className="fade-white"></div> */}
+      <div className="fade-white"></div>
       <div className="wrapper">
         <h1>Latest Article</h1>
         <div className="articles-container">

@@ -3,14 +3,15 @@
   --foreground: #171717;
 
   --radius: 1rem;
+  --maxWith: 60rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
@@ -45,9 +46,15 @@ a:hover {
 }
 
 .wrapper {
-  max-width: 960px;
+  max-width: var(--maxWith);
   margin: 0 auto;
   /* padding: 5rem 0; */
+}
+
+code{
+  background-color: #ff3e58;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -63,3 +70,19 @@ a:hover {
     color: black;
   }
 }
+
+/* 768px */
+/* @media (min-width: 48rem) { 
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+
+/* 1024px */
+/* @media (min-width: 64rem) {
+  .grid-layout {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+ */

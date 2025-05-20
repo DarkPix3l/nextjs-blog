@@ -1,0 +1,43 @@
+.main {
+  padding: 150px 0;
+}
+
+.article {
+  margin-top: 5rem;
+}
+.article h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.article p {
+  line-height: 29px;
+  word-spacing: 1.5px;
+  font-size: 1.1rem;
+}
+
+.article figure {
+  margin: 3rem 0;
+}
+
+.article figcaption {
+  font-size: 0.9rem;
+  color: gray;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.article h2 {
+  margin: 2rem 0;
+}
+
+.authorInfo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.coverRatio{
+    overflow:hidden;
+    max-height: 600px;
+}

@@ -8,6 +8,9 @@ author:
   picture: "/authors/alex.jpg"
 ogImage:
   url: "/optimizing-images/cover.jpg"
+photoCredit:
+  avatar: "Photo by imansyah-muhamad-putera on Unsplash"
+  cover: "Photo by flyd on Unsplash"
 ---
 
 Next.js offers a powerful `<Image />` component that provides automatic image resizing, lazy loading, and format selection (e.g., WebP).
@@ -19,8 +22,4 @@ Using the Image component improves page speed and user experience with minimal e
 
 Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
 
----
 
-Photo credit:
-Avatar: Photo by imansyah-muhamad-putera on Unsplash
-Cover: Photo by flyd on Unsplash

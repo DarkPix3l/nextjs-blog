@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p className="footer-text">&copy; {new Date().getFullYear()} My Blog. All rights reserved.</p>
+        <p className="footer-text">&copy; {new Date().getFullYear()} Grow Blog. All rights reserved.</p>
         <nav className="footer-nav">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
