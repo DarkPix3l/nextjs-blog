@@ -1,11 +1,11 @@
-/* import { Roboto} from "next/font/google"; */
+import { Roboto} from "next/font/google";
 import "./globals.css";
 
-/* const roboto = Roboto({
+const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
-}); */
+});
 
 export const metadata = {
   title: "NextJS Blog",

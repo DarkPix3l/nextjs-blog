@@ -14,7 +14,7 @@ export default async function PostPage({ params }) {
   const content = await markdownToHtml(post.content || '');
 
   return (
-    <article>
+    <article className='wrapper'>
       <h1>{post.title}</h1>
        <p>By {post.author.name} on {post.date}</p>
       <img src={post.coverImage} alt={post.title} style={{ maxWidth: "100%" }} />
