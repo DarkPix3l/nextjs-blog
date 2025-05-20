@@ -2,7 +2,7 @@
 title: "Creating Custom Fonts in Next.js"
 excerpt: "Add style and personality to your blog by using custom or Google Fonts with Next.js’ built-in font optimization."
 coverImage: "/custom-font/cover.jpg"
-date: "2022-09-11T08:50:00.000Z"
+date: "August 30, 2025"
 author:
   name: David Park
   picture: "/authors/DavidPark.jpg"
